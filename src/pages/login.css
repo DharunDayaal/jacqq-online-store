@@ -1,0 +1,71 @@
+.background {
+    width: 100%;
+    background-color: #27211e;
+    height: 695px;
+}
+
+.form-section {
+    width: 75%;
+    margin: 0 auto 0 auto;
+    background-color: #27211e;
+    padding: 8rem 0 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form-section h2 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    margin: 0 0 24px;
+    user-select: none;
+}
+
+.form-section p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    margin: 0 0 36px;
+    opacity: 0.9;
+    user-select: none;
+}
+
+.form-section span {
+    cursor: pointer;
+    color: #C19F60;
+    opacity: 1;
+    user-select: none;
+}
+
+.form-section label {
+    width: fit-content;
+    display: block;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    user-select: none;
+}
+
+.form-section input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+}
+
+.form-section input::placeholder {
+    user-select: none;
+}
+
+.email, .password {
+    margin: 1.5rem 0;
+}

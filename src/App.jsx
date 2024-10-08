@@ -1,13 +1,14 @@
 import React from "react"
-import { BrowserRouter as Routes, Router, Route } from "react-router-dom"
-import { HomePage } from './pages/HomePage'
+import { BrowserRouter, Routes, Router, Route } from "react-router-dom"
+// import { HomePage } from './pages/HomePage'
+import Login from "./pages/Login"
 
 function App() {
   
 
   return (
     <>
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path={<HomePage/>} />
           <Route path={<HomePage/>} />
@@ -16,7 +17,8 @@ function App() {
           <Route path={<HomePage/>} />
           <Route path={<HomePage/>} />
         </Routes>
-      </Router>
+      </Router> */}
+      <Login />
     </>
   )
 }
